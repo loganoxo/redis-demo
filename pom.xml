@@ -12,6 +12,7 @@
         <module>springboot-demo</module>
         <module>springdata-redis-demo</module>
         <module>sentinel-demo</module>
+        <module>cluster-demo</module>
     </modules>
 
     <properties>
