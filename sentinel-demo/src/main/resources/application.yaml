@@ -1,0 +1,10 @@
+spring:
+  redis:
+    sentinel:
+      master: mymaster # sentinel配置文件中定义的集群名字
+      nodes:
+        - 127.0.0.1:27001
+        - 127.0.0.1:27002
+        - 127.0.0.1:27003
+      #password: 123456 #访问sentinel的密码
+    password: 123456 #访问redis集群的密码
