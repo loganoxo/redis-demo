@@ -10,9 +10,9 @@
     <modules>
         <module>jedis-demo</module>
         <module>springboot-demo</module>
-        <module>springdata-redis-demo</module>
         <module>sentinel-demo</module>
         <module>cluster-demo</module>
+        <module>standalone-demo</module>
     </modules>
 
     <properties>
